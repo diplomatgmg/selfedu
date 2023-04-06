@@ -1,0 +1,16 @@
+[
+  {
+    "model": "women.category",
+    "pk": 1,
+    "fields": {
+      "name": "Актрисы"
+    }
+  },
+  {
+    "model": "women.category",
+    "pk": 2,
+    "fields": {
+      "name": "Певицы"
+    }
+  }
+]
