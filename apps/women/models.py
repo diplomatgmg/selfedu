@@ -9,8 +9,8 @@ class Category(models.Model):
 
 
 class Women(models.Model):
-    title = models.CharField(max_length=255)
-    content = models.TextField(blank=True)
+    name = models.CharField(max_length=255)
+    description = models.TextField(blank=True)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
     is_published = models.BooleanField(default=True)
@@ -19,4 +19,4 @@ class Women(models.Model):
     )
 
     def __str__(self):
-        return f"id: {self.id}, {self.title}"
+        return f"id: {self.id}, {self.name}"
