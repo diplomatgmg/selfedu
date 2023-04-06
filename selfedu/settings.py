@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # Библиотеки
     "debug_toolbar",
+    "rest_framework",
     # Приложения
     "apps.women",
 ]
