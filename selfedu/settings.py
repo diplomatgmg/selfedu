@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     # Библиотеки
     "debug_toolbar",
     # Приложения
+    "apps.women",
 ]
 
 MIDDLEWARE = [
