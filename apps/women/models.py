@@ -17,6 +17,7 @@ class Women(models.Model):
     category = models.ForeignKey(
         "Category", on_delete=models.PROTECT, db_index=True, null=True
     )
+    user = models.ForeignKey("auth.User", on_delete=models.CASCADE)
 
     def __str__(self):
         return f"id: {self.id}, {self.name}"
